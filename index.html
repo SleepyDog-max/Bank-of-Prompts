@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of Prompts for NAATI Tasks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bank of Prompts for NAATI Tasks</h1>
+    </header>
+    <section id="instructions">
+        <h2>Instructions</h2>
+        <p>These prompts are designed to help you seek feedback from Grok on your translation and revision tasks based on the NAATI marking rubric. Use them to evaluate your work and improve your skills. You can also add your own prompts below.</p>
+        <ul>
+            <li><strong>Task A Prompts:</strong> Focus on translation accuracy, textual norms, and language proficiency.</li>
+            <li><strong>Task B Prompts:</strong> Focus on revision skills and error categorization.</li>
+            <li><strong>Using Prompts:</strong> Copy a prompt, tweak it if needed, and ask Grok for feedback on your work.</li>
+            <li><strong>Custom Prompts:</strong> Enter your own prompts in the text area and save them. They will be displayed below for future use.</li>
+        </ul>
+    </section>
+    <section id="prompts">
+        <h2>Prompts</h2>
+        <div id="taskA">
+            <h3>Task A: Translation of a Non-Specialised Text</h3>
+            <h4>Transfer Competency: Meaning Transfer</h4>
+            <ul>
+                <li>Does my translation accurately convey the intent and content of the original message? Are there any distortions, unjustified omissions, or additions that affect the meaning?</li>
+                <li>Can you identify any specific phrases or sentences where the meaning might be unclear or inaccurate in my translation?</li>
+                <li>How well does my translation maintain the core message of the source text? Are there any parts where the meaning is significantly altered?</li>
+                <li>Why do you think this suggestion improves the accuracy of the translation? Can you explain the difference in meaning?</li>
+            </ul>
+            <h4>Transfer Competency: Application of Textual Norms and Conventions</h4>
+            <ul>
+                <li>Does my translation use the appropriate register, style, and structure for the genre and target audience? Are there any inconsistencies with the norms of the target language?</li>
+                <li>How well does my translation handle domain-specific terminology? Are there any terms that seem out of place or incorrectly used?</li>
+                <li>Can you suggest ways to make my translation more aligned with the conventions of the target language for this type of text?</li>
+                <li>What makes this revision more appropriate for the target audience? How does it better reflect the textual norms?</li>
+            </ul>
+            <h4>Language Competency: Target Language Proficiency</h4>
+            <ul>
+                <li>Is my use of the target language idiomatic and fluent? Are there any unidiomatic expressions or awkward phrasings?</li>
+                <li>Can you point out any errors in grammar, syntax, spelling, or punctuation that affect the readability of my translation?</li>
+                <li>How does my translation perform in terms of lexicon and terminology? Are there better word choices I could use?</li>
+                <li>How does this suggested change improve the fluency or clarity of the translation? Can you provide an alternative phrasing?</li>
+            </ul>
+        </div>
+        <div id="taskB">
+            <h3>Task B: Revision of a Non-Specialised Translation</h3>
+            <h4>Transfer Competency: Revision Skills</h4>
+            <ul>
+                <li>In the original translation, what errors did I miss during my revision? Are there any remaining distortions, omissions, or additions that affect the meaning?</li>
+                <li>Did I introduce any new errors while revising the translation? If so, where and how do they impact the overall quality?</li>
+                <li>How effective was my revision in improving the accuracy and fluency of the translation? Are there areas where I could have made further improvements?</li>
+                <li>Why did you categorize this as an error? Can you explain how it affects the translation’s accuracy or readability?</li>
+            </ul>
+            <h4>Transfer Competency: Error Categorization</h4>
+            <ul>
+                <li>For the errors I identified in the original translation, did I categorize them correctly (e.g., as distortions, omissions, additions, or language errors)?</li>
+                <li>Are there any errors I miscategorized or failed to identify? How would you categorize them based on the rubric?</li>
+                <li>Can you help me understand why this particular error falls into the category of [specific category, e.g., unjustified omission]?</li>
+                <li>What makes this categorization accurate? How does it align with the assessment criteria in the rubric?</li>
+            </ul>
+        </div>
+    </section>
+    <section id="user-input">
+        <h2>Enter Your Own Prompt</h2>
+        <textarea id="custom-prompt" placeholder="Type your prompt here..."></textarea>
+        <button id="save-prompt">Save Prompt</button>
+        <div id="custom-prompts-list">
+            <h3>Your Custom Prompts</h3>
+            <ul id="prompts-list"></ul>
+        </div>
+    </section>
+    <footer>
+        <p>Created for Translation Studies</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
