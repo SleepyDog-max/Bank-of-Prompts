@@ -39,8 +39,8 @@ h3, h4 {
     color: #4CAF50; /* Default h3 and h4 remain green */
 }
 
-/* Override specific h3 headings under #prompts to magenta */
-#taskA h3, #taskB h3, #source-text-understanding h3, #reference-comparison h3 {
+/* Override all h3 headings under #prompts to magenta */
+#prompts h3 {
     color: #D81B60;
 }
 
