@@ -40,7 +40,7 @@ h3, h4 {
 }
 
 /* Override specific h3 headings under #prompts to magenta */
-#taskA h3, #taskB h3, #source-text-understanding h3 {
+#taskA h3, #taskB h3, #source-text-understanding h3, #reference-comparison h3 {
     color: #D81B60;
 }
 
