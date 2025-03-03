@@ -1,12 +1,12 @@
 body {
-    background-colour: #f0f0f0;
+    background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    colour: #333;
+    color: #333;
 }
 
 header {
-    background-colour: #4CAF50;
-    colour: white;
+    background-color: #4CAF50;
+    color: white;
     padding: 20px;
     text-align: center;
 }
@@ -14,39 +14,39 @@ header {
 section {
     margin: 20px;
     padding: 20px;
-    background-colour: white;
+    background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #instructions {
-    background-colour: #e7f3fe;
+    background-color: #e7f3fe;
 }
 
 #prompts {
-    background-colour: #f9f9f9;
+    background-color: #f9f9f9;
 }
 
 #user-input {
-    background-colour: #fff3cd;
+    background-color: #fff3cd;
 }
 
 h2 {
-    colour: #4CAF50; /* Default h2 colour remains green */
+    color: #4CAF50; /* Default h2 color remains green */
 }
 
 h3, h4 {
-    colour: #4CAF50; /* Default h3 and h4 remain green */
+    color: #4CAF50; /* Default h3 and h4 remain green */
 }
 
 /* Override all h3 headings under #prompts to magenta */
 #prompts h3 {
-    colour: #D81B60;
+    color: #D81B60;
 }
 
 /* Override Enter Your Own Prompt h2 to magenta */
 #user-input h2 {
-    colour: #D81B60;
+    color: #D81B60;
 }
 
 ul {
@@ -64,8 +64,8 @@ textarea {
 }
 
 button {
-    background-colour: #4CAF50;
-    colour: white;
+    background-color: #4CAF50;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -74,7 +74,7 @@ button {
 }
 
 button:hover {
-    background-colour: #45a049;
+    background-color: #45a049;
 }
 
 #custom-prompts-list {
@@ -87,7 +87,7 @@ button:hover {
 }
 
 #prompts-list li {
-    background-colour: #f9f9f9;
+    background-color: #f9f9f9;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -97,8 +97,8 @@ button:hover {
 }
 
 .delete-btn {
-    background-colour: #ff4d4d;
-    colour: white;
+    background-color: #ff4d4d;
+    color: white;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -106,13 +106,13 @@ button:hover {
 }
 
 .delete-btn:hover {
-    background-colour: #ff1a1a;
+    background-color: #ff1a1a;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-colour: #f0f0f0;
+    background-color: #f0f0f0;
     font-size: 14px;
-    colour: #666;
+    color: #666;
 }
